@@ -1,0 +1,14 @@
+[project]
+name = "otus-http-server"
+version = "1.0.0"
+description = "Static HTTP server homework for OTUS Python Professional"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["http_server*"]
